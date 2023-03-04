@@ -1,9 +1,8 @@
-#la lista
-l = ["red", "blue", "hello", "white"]
-#para imprimir la lista
-print(l)
-#para imprimir el primir dato
-print("el primer dato es ", l [0])
-#para imprimir el ultimo dato
-print("el ultimo dato es", l [3])
-
+#ingresar datos
+list = input("ingresar los datos: ")
+#imprime la lista
+print("los elementos d ela lista: ",list)
+#imprime el primer valor de la lista
+print ("el primer elemento de la lista: ",list[0])
+#imprime el ultimo valor de la lista
+print ("el ultimo elemento de la lista: ",list[-1])
