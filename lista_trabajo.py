@@ -1,8 +1,9 @@
 #ingresar datos
-list = input("ingresar los datos: ")
+lista = input("ingresar los datos: " )
+la = lista.split()
 #imprime la lista
-print("los elementos d ela lista: ",list)
+print("los elementos d ela lista: ",la)
 #imprime el primer valor de la lista
-print ("el primer elemento de la lista: ",list[0])
+print ("el primer elemento de la lista: ", la[0])
 #imprime el ultimo valor de la lista
-print ("el ultimo elemento de la lista: ",list[-1])
+print ("el ultimo elemento de la lista: ", la[len(la)-1])
